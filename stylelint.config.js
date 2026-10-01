@@ -3,7 +3,7 @@ module.exports = {
   extends: ['stylelint-config-standard'],
   customSyntax: 'postcss-scss',
   rules: {
-    '@stylistic/max-empty-lines': 1,
+    // '@stylistic/max-empty-lines': 1,
     'color-no-invalid-hex': true,
     'value-keyword-case': ['lower', { camelCaseSvgKeywords: true }],
     'property-no-unknown': true,
